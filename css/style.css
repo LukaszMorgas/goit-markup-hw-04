@@ -339,3 +339,7 @@ h4 a {
 .portfolio-desc p {
   margin: 15px;
 }
+.icon {
+  display: inline-block;
+  border: 2px solid black;
+}
