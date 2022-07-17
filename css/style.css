@@ -399,7 +399,7 @@ h4 a {
  
 }
 .clientlogo {
-  display: flex;
+  display: inline-flex;
   width: 170px;
   height: 92px;
   align-items: center;
