@@ -388,3 +388,30 @@ h4 a {
   background: var(--secondcolor);
   cursor: pointer;
 }
+.clients-list {
+  display: flex;
+  padding-bottom: 92px;
+  justify-content: center;
+  gap: 30px;
+  margin: auto;
+  padding: auto;
+
+ 
+}
+.clientlogo {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 4%;
+  fill: var(--socialcardcolor);
+  border: 1px solid #afb1b8;
+}
+.clientlogo:hover,
+.clientlogo:focus {
+  fill: var(--secondcolor);
+  border-color: var(--secondcolor);
+  cursor: pointer;
+}
