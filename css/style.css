@@ -423,12 +423,13 @@ h4 a {
   color: var(--white);
 }
 .joinus-section {
-  /* display: flex; */
-  margin-left: 171px;
+  padding-top: 10px;
+  padding-left: 80px;
 }
 .joinus-social {
   display: flex;
   fill: var(--white);
+  padding: 0;
 }
 .joinus-sociallist {
   display: inline-flex;
@@ -443,4 +444,5 @@ h4 a {
 .joinus-sociallist:hover,
 .joinus-sociallist:focus {
   background: var(--secondcolor);
+  cursor: pointer;
 }
